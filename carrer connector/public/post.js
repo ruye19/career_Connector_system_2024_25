@@ -37,7 +37,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 var _this = this;
 document.addEventListener('DOMContentLoaded', function () {
     var _a;
-    // Attach event listener to the post form submission
     (_a = document
         .getElementById('postForm')) === null || _a === void 0 ? void 0 : _a.addEventListener('submit', function (event) { return __awaiter(_this, void 0, void 0, function () {
         function decodeJWT(token) {

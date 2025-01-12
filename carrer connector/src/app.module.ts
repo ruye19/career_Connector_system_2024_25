@@ -6,6 +6,8 @@ import { UserModule } from './user/user.module';
 import { RoleModule } from './role/role.module';
 import { Role } from './role/role.entity';
 import { User } from './user/user.entity';
+import { AuthModule } from './auth/auth.module';
+import { PostModule } from './post/post.module';
 
 @Module({
   imports: [
@@ -22,6 +24,8 @@ import { User } from './user/user.entity';
     }),
     UserModule,
     RoleModule,
+    AuthModule,
+    PostModule,
   ],
   controllers: [AppController],
   providers: [AppService],
